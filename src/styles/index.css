@@ -1,11 +1,38 @@
-/* 
+body {
+    font-family: "Jost", sans-serif;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 75px;
+    color: #f0d8d8;
+}
 
-*/
+ul {
+    padding: 0;
+    list-style: none;
+    border: 1px solid lightgrey;
+    margin-bottom: 0;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    font-size:larger;
+}
+
+ul li {
+    padding: 9.5px;
+    padding-left: 32px;
+    border: 1px solid lightgray;
+}
+
+.theTasks {
+    margin-top: 10px;
+    color: gray;
+    padding-left: 15px;
+    font-size: medium;
+}
+
+input {
+    border: none;
+    width: 100%;
+    margin-bottom: 8px;
+}
